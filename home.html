@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Index</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(151, 151, 151);
+            }
+            .top-bar {
+                background-color: rgb(50, 50, 50);
+                color: white;
+                padding: 10px 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                z-index: 1000;
+            }
+            .top-bar .logo {
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .top-bar .nav-buttons {
+                display: flex;
+                gap: 10px;
+            }
+            .top-bar .nav-buttons a {
+                text-decoration: none;
+                color: white;
+                background-color: rgb(100, 100, 100);
+                padding: 8px 15px;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+            .top-bar .nav-buttons a:hover {
+                background-color: rgb(150, 150, 150);
+            }
+            .container {
+                width: 65%;
+                margin: 150px auto;
+                overflow: hidden;
+                padding: 40px;
+                background-color: rgb(172, 172, 172);
+                box-shadow: 0 0 500px rgb(0, 0, 0);
+                border-radius: 200px;
+                position: relative;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                color: #646464;
+                margin: 20px 0;
+                text-align: left;
+                font-family: 'arial';
+            }
+            p {
+                margin: 10px 0;
+                color: #666;
+            }
+            .main {
+                font-size: 30px;
+                text-align: center;
+                padding: 10px;
+                border-radius: 5px;
+                color: rgb(100, 100, 100);
+                font-family: 'arial';
+            }
+            .clock {
+                font-size: 20px;
+                font-family: 'arial';
+                text-align: left;
+                margin-top: 20px;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 5px;
+                display: inline-block;
+                border-radius: 5px;
+            }
+        </style>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    </head>
+    <body>
+        <div class="top-bar">
+            <div class="nav-buttons">
+                <a href="file:///C:/larvel-apps/home/vagrant/code/laravelwindows/resources/views/Index.html">Page 1</a>
+            </div>
+        </div>
+        <div class="container">
+            <p class="main">Text</p>
+        </div>
+    </body>
+</html>
